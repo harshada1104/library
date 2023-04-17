@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.paginationBtn {
+  width: 100%;
+  height: 20px;
+  list-style: none;
+  display:flex;
+  justify-content: center;
+  margin-top: auto;
+
+}
+
+.paginationBtn a {
+  padding: 8px;
+  margin: 4px;
+  
+  border-radius: 5px;
+  border: 1px solid #4519e6;
+  color: #4519e6;
+  cursor: pointer;
+}
+
+.paginationBtn a:hover {
+  color: white;
+  background-color: #4519e6;
+}
+
+.activeBtn a {
+  color: white;
+  background-color: #4519e6;
+}
